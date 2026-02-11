@@ -1,0 +1,16 @@
+# Jekyll configuration for GitHub Pages
+
+# Theme
+theme: minima
+
+# Base URL
+baseurl: ""
+
+# Title
+title: "My GitHub Pages Site"
+
+# Other Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
