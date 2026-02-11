@@ -1,151 +1,34 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Felipe Eduardo Oliveira</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+# GitHub Pages Portfolio Setup Instructions
 
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f5f7fa;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      color: #1f2933;
-    }
+Follow these steps to set up your GitHub Pages Portfolio:
 
-    .card {
-      background: #ffffff;
-      width: 100%;
-      max-width: 420px;
-      padding: 28px;
-      border-radius: 16px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    }
+1. **Create a New Repository**: 
+   - Go to GitHub and create a new repository with a name like `portfolio`.
 
-    h1 {
-      margin: 0;
-      font-size: 24px;
-      text-align: center;
-      font-weight: 700;
-    }
+2. **Enable GitHub Pages**: 
+   - In the repository settings, find the "GitHub Pages" section and choose the main branch as the source.
 
-    .identificacao {
-      text-align: center;
-      font-size: 14px;
-      color: #4b5563;
-      margin-top: 6px;
-      line-height: 1.4;
-    }
+3. **Clone the Repository**: 
+   - Use the command `git clone https://github.com/yourusername/portfolio.git` to clone the repository to your local machine.
 
-    .cro {
-      text-align: center;
-      font-size: 13px;
-      color: #6b7280;
-      margin-top: 4px;
-      margin-bottom: 22px;
-    }
+4. **Add Your Content**: 
+   - Add HTML, CSS, or other files to the repository as needed for your portfolio.
 
-    .section {
-      margin-bottom: 20px;
-    }
+5. **Commit Your Changes**: 
+   - Stage and commit your changes with the command:
+     ```bash
+     git add .
+     git commit -m "Initial portfolio setup"
+     ```
 
-    .section h2 {
-      font-size: 16px;
-      color: #2563eb;
-      margin-bottom: 8px;
-      border-bottom: 1px solid #e5e7eb;
-      padding-bottom: 4px;
-    }
+6. **Push Changes**: 
+   - Push your changes back to GitHub using the command:
+     ```bash
+     git push origin main
+     ```
 
-    ul {
-      padding-left: 18px;
-      margin: 0;
-      font-size: 14.5px;
-    }
+7. **View Your Portfolio**: 
+   - Your portfolio will be available at `https://yourusername.github.io/portfolio` once changes are pushed. 
 
-    li {
-      margin-bottom: 6px;
-    }
-
-    .botao {
-      display: block;
-      text-align: center;
-      margin-top: 12px;
-      padding: 14px;
-      background: #2563eb;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 15px;
-      transition: 0.3s;
-    }
-
-    .botao:hover {
-      background: #1e40af;
-    }
-
-    footer {
-      margin-top: 18px;
-      font-size: 12px;
-      text-align: center;
-      color: #6b7280;
-      line-height: 1.4;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="card">
-
-    <h1>Felipe Eduardo Oliveira</h1>
-
-    <div class="identificacao">
-      Cirurgião-Dentista • Docente Universitário<br>
-      Biopatologia Bucal • Estomatologia • Farmacologia
-    </div>
-
-    <div class="cro">
-      CRO-SP 102.984
-    </div>
-
-    <div class="section">
-      <h2>Formação Acadêmica</h2>
-      <ul>
-        <li>Bacharelado em Odontologia</li>
-        <li>Licenciatura em Ciências Biológicas</li>
-        <li>Mestrado e Doutorado em Biopatologia Bucal</li>
-        <li>Especialização em Estomatologia</li>
-        <li>Pós-graduação em Anatomia Funcional</li>
-        <li>Pós-graduação em Patologia Oral</li>
-        <li>Pós-graduação em Farmacologia aplicada à Odontologia</li>
-        <li>Pós-graduação em Docência no Ensino Superior</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Atuação Profissional</h2>
-      <ul>
-        <li>Aulas particulares e reforço acadêmico</li>
-        <li>Consultoria diagnóstica em Odontologia</li>
-        <li>Atendimentos clínicos em consultórios</li>
-      </ul>
-    </div>
-
-    <a class="botao" href="https://wa.me/5511999999999">Contato via WhatsApp</a>
-    <a class="botao" href="mailto:seuemail@email.com">Contato por E-mail</a>
-    <a class="botao" href="https://instagram.com/seuusuario">Instagram Profissional</a>
-
-    <footer>
-      Compromisso com rigor científico, excelência no ensino<br>
-      e ética no cuidado ao paciente
-    </footer>
-
-  </div>
-
-</body>
-</html>
+8. **Update as Needed**: 
+   - Continue to make changes and push updates to keep your portfolio fresh!
