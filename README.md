@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Felipe Eduardo Oliveira</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #1f2933;
+    }
+
+    .card {
+      background: #ffffff;
+      width: 100%;
+      max-width: 420px;
+      padding: 28px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .identificacao {
+      text-align: center;
+      font-size: 14px;
+      color: #4b5563;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .cro {
+      text-align: center;
+      font-size: 13px;
+      color: #6b7280;
+      margin-top: 4px;
+      margin-bottom: 22px;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      font-size: 16px;
+      color: #2563eb;
+      margin-bottom: 8px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 4px;
+    }
+
+    ul {
+      padding-left: 18px;
+      margin: 0;
+      font-size: 14.5px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .botao {
+      display: block;
+      text-align: center;
+      margin-top: 12px;
+      padding: 14px;
+      background: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .botao:hover {
+      background: #1e40af;
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 12px;
+      text-align: center;
+      color: #6b7280;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <h1>Felipe Eduardo Oliveira</h1>
+
+    <div class="identificacao">
+      Cirurgião-Dentista • Docente Universitário<br>
+      Biopatologia Bucal • Estomatologia • Farmacologia
+    </div>
+
+    <div class="cro">
+      CRO-SP 102.984
+    </div>
+
+    <div class="section">
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li>Bacharelado em Odontologia</li>
+        <li>Licenciatura em Ciências Biológicas</li>
+        <li>Mestrado e Doutorado em Biopatologia Bucal</li>
+        <li>Especialização em Estomatologia</li>
+        <li>Pós-graduação em Anatomia Funcional</li>
+        <li>Pós-graduação em Patologia Oral</li>
+        <li>Pós-graduação em Farmacologia aplicada à Odontologia</li>
+        <li>Pós-graduação em Docência no Ensino Superior</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Atuação Profissional</h2>
+      <ul>
+        <li>Aulas particulares e reforço acadêmico</li>
+        <li>Consultoria diagnóstica em Odontologia</li>
+        <li>Atendimentos clínicos em consultórios</li>
+      </ul>
+    </div>
+
+    <a class="botao" href="https://wa.me/5511999999999">Contato via WhatsApp</a>
+    <a class="botao" href="mailto:seuemail@email.com">Contato por E-mail</a>
+    <a class="botao" href="https://instagram.com/seuusuario">Instagram Profissional</a>
+
+    <footer>
+      Compromisso com rigor científico, excelência no ensino<br>
+      e ética no cuidado ao paciente
+    </footer>
+
+  </div>
+
+</body>
+</html>
